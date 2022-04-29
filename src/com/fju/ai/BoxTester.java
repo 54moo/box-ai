@@ -42,6 +42,7 @@ public class BoxTester {
         for (Box box : boxes) {
             if (box.isFit(length, width, height)) {
                 System.out.println(box);
+                System.out.println("sadge");
                 break;
             }
         }
